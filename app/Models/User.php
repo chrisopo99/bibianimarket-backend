@@ -1,5 +1,6 @@
 <?php
-
+use Laravel\Sanctum\HasApiTokens;
+use HasApiTokens, HasFactory, Notifiable;
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
